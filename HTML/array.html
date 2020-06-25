@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <h1>array</h1>
+    <h2>Syntax</h2>
+    <p>123123</p>
+    <p>234234234</p>
+    <script>
+      var target = document.querySelector("body");
+    </script>
+    <input
+      id="night_day"
+      type="button"
+      value="dark"
+      onclick="if(this.value==='dark'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='day'; } else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='dark';}"
+    />
+    <script>
+      var coworkers = ["egoing", "leezche"];
+    </script>
+
+    <h2>get</h2>
+
+    <script>
+      document.write(coworkers[0]);
+      document.write(coworkers[1]);
+    </script>
+    <h2>count</h2>
+    <script>
+      document.write(coworkers.length);
+    </script>
+
+    <h2>push</h2>
+    <script>
+      coworkers.push("taeho");
+      coworkers.push("duru");
+      document.write(coworkers.length);
+    </script>
+    <h2>LOOP</h2>
+
+    <script>
+      document.write("<li>1</li>");
+      var i = 0;
+      while (i < 3) {
+        document.write("<li>2</li>");
+        document.write("<li>3</li>");
+        i = i + 1;
+      }
+
+      document.write("<li>4</li>");
+    </script>
+  </body>
+</html>
